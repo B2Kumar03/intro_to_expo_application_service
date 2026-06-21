@@ -8,6 +8,6 @@ on:
 jobs:
   build:
     steps:
-    - run: echo "hello world"
-    - run: echo "hello bittu"
+      - run: echo "hello world"
+      - run: echo "hello bittu"
     
