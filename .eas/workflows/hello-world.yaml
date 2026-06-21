@@ -1,0 +1,13 @@
+
+name: hello world
+
+on:
+  push:
+    branches:["master"]
+
+jobs:
+  build:
+    steps:
+    - run echo "hello world"
+    - run echo "hello bittu"
+    
