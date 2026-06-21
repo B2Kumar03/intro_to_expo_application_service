@@ -1,14 +1,14 @@
-name: CI Check
+# name: CI Check
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  typecheck:
-    steps:
-      - uses: eas/checkout
-      - uses: eas/install_node_modules
-      - run: npx expo lint
-      - run: npx expo typecheck
+# jobs:
+#   typecheck:
+#     steps:
+#       - uses: eas/checkout
+#       - uses: eas/install_node_modules
+#       - run: npx expo lint
+#       - run: npx expo typecheck

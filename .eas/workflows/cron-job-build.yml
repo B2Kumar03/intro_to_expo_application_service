@@ -1,0 +1,13 @@
+# name: Preview Android Build
+
+# on:
+#   schedule:
+#     - cron: '0 2 * * *' # 2 AM every day
+
+# jobs:
+#   build_android:
+#     name: Build Android Cron Job
+#     type: build
+#     params:
+#       platform: android
+#       profile: preview

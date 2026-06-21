@@ -1,15 +1,15 @@
-name: Preview build
+# name: Preview build
 
-on:
-  workflow_dispatch:{}
-  # push:
-  #   branches:
-  #     - master
+# on:
+#   workflow_dispatch:{}
+#   # push:
+#   #   branches:
+#   #     - master
 
-jobs:
-  build_android:
-    name: Build Android
-    type: build
-    params:
-      platform: android
-      profile: preview
+# jobs:
+#   build_android:
+#     name: Build Android
+#     type: build
+#     params:
+#       platform: android
+#       profile: preview

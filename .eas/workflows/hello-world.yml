@@ -1,14 +1,14 @@
-name: hello world
+# name: hello world
 
-on:
-  push:
-    branches:
-      - master
+# on:
+#   push:
+#     branches:
+#       - master
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
 
-    steps:
-      - run: echo "hello world"
-      - run: echo "hello bittu"
+#     steps:
+#       - run: echo "hello world"
+#       - run: echo "hello bittu"
